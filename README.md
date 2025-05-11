@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🤖 ArnobGPT – AI-Powered Portfolio Chatbot
 
-## Getting Started
+[![Vercel](https://img.shields.io/badge/Live-Demo-000?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-portfolio-bep6.vercel.app/)
+[![Tech](https://img.shields.io/badge/Built%20With-Next.js%20%7C%20OpenAI%20%7C%20AstraDB-blue?style=for-the-badge)](#)
 
-First, run the development server:
+> “Ask me anything—except my Valorant rank.” – _ArnobGPT_
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 About
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**ArnobGPT** is an AI-driven portfolio that lets you interact with my projects, background, and fun facts – through a chatbot interface!  
+Instead of reading a wall of text, just ask me questions like:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- “Who is Arnob Deb?”
+- “What projects have you built?”
+- “Where do you live?”
+- “What is My-Sensei?”
 
-## Learn More
+Built for fun, powered by serious tech. 😎
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👉 [https://ai-portfolio-bep6.vercel.app/](https://ai-portfolio-bep6.vercel.app/)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧠 Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🔍 **RAG-based AI chatbot** trained on my background and projects
+- 💬 Real-time responses using OpenAI's `gpt-3.5-turbo`
+- 📁 Project-aware vector search using **Astra DB Vector**
+- 🎨 Stylish, animated UI with Tailwind CSS and Next.js
+- 🤖 Uses [ai SDK](https://ai-sdk.dev/) for streaming chat
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Tech                                 |
+|--------------|--------------------------------------|
+| Frontend      | `Next.js`, `React`, `Tailwind CSS`   |
+| Chat Logic    | `ai@3.1.28`, `useChat()`              |
+| AI Model      | `OpenAI GPT-3.5 Turbo`               |
+| Vector Store  | `@datastax/astra-db-ts`              |
+| Deployment    | `Vercel`                             |
+
+---
+
+## 📸 Screenshots
+
+![image](https://github.com/user-attachments/assets/df6838a5-9d8f-4a0c-a0e8-5c20433e3958)
+
+---
+
+## 🧑‍💻 How It Works
+
+1. User types a question
+2. The app generates an OpenAI embedding
+3. Vector search is performed on Astra DB using $vector sort
+4. The top 5 documents become the context
+5. GPT-3.5 generates a response with full streaming enabled
+
+---
+
+## 🧪 Try Asking It…
+
+- "What's Arnob's Educational Background??"
+- "Tell me about his Social Media accounts."
+- "How many projects has Arnob done?"
+- "What’s his email or GitHub?"
+
+---
+
