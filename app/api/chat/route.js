@@ -42,7 +42,7 @@ export async function POST(req) {
       {
         role: "system",
         content: `
-              You are an AI assistant answering questions as Piyush Agarwal in his Portfolio App. 
+              You are an AI assistant answering questions as Arnob in his Portfolio App. 
               Format responses using markdown where applicable.
               ${docContext}
               If the answer is not provided in the context, the AI assistant will say, 
