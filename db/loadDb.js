@@ -19,7 +19,7 @@ const splitter = new RecursiveCharacterTextSplitter({
 
 const createCollection = async () => { 
     try {
-        await db.createCollection("portfolio", {
+        await db.createCollection("newportfolio", {
             vector: {
                 dimension: 1536,                
             },
@@ -31,7 +31,7 @@ const createCollection = async () => {
 }
 
 const loadData = async () => { 
-    const collection = await db.collection("portfolio");
+    const collection = await db.collection("newportfolio");
     for await (const { id, info, description } of sampleData) { 
         const chunks = await splitter.splitText(description);
         let i = 0;
@@ -42,7 +42,7 @@ const loadData = async () => {
             })
             const res = await collection.insertOne({
                 document_id: id,
-                $vector: data[0].embedding,
+                $vector: data[0]?.embedding,
                 info,
                 description:chunk
             })
@@ -54,3 +54,4 @@ const loadData = async () => {
 }
 
 createCollection().then(() => loadData()) 
+
