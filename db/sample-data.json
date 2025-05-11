@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "info": "Arnob Deb",
+    "description": "Lecturer at Daffodil International University, AI enthusiast, and tech builder. Born and raised in Bangladesh, currently living in Mohammadpur, Dhaka. A travel lover and photographer who enjoys photo editing, Valorant gaming, and chilling with his dog Brainless."
+  },
+  {
+    "id": 2,
+    "info": "Education",
+    "description": "BSc in Computer Science from BRAC University (CGPA 3.81). Attended Shahid Syed Nazrul Islam College for HSC and Jamalpur Zilla School for SSC. Planning to pursue MSc in Artificial Intelligence at Macquarie University, Australia."
+  },
+  {
+    "id": 3,
+    "info": "Profession",
+    "description": "Lecturer at Daffodil International University. Teaches Software Engineering, Artificial Intelligence, NLP, Automata, and Database Management. Passionate about mentoring and inspiring students through project-based learning."
+  },
+  {
+    "id": 4,
+    "info": "Research and Thesis",
+    "description": "Published papers on CNNs for Alzheimer’s detection and deep learning for weather forecasting. Undergraduate thesis focused on assessing quality of extracted content from newspaper comment sections using NLP techniques."
+  },
+  {
+    "id": 5,
+    "info": "Recent Project",
+    "description": "My-Sensei – an AI-powered career coaching platform offering resume building, cover letter generation, and industry insights. Integrated with Gemini AI for quiz generation. Live at: https://my-sensei.vercel.app/"
+  },
+  {
+    "id": 6,
+    "info": "Projects",
+    "description": "DIU GPT (AI Chatbot for universities), AI Career Coach, Bangla AI Chatbot, MultiPDF Chat App, Chat from URL, Langflow AI Agents, Internship Board, Resume Builder, BRACU Forum. Most built using LangChain, Streamlit, or Next.js with OpenAI integration."
+  },
+  {
+    "id": 7,
+    "info": "Skills",
+    "description": "Python, JavaScript, TypeScript, Java, Node.js, PHP. Expertise in NLP, ML, CV, Retrieval-Augmented Generation, LangChain, TensorFlow, Streamlit, Prisma, Tailwind, React, GraphQL, MongoDB, and PostgreSQL."
+  },
+  {
+    "id": 8,
+    "info": "Achievements",
+    "description": "Scholarship holder at BRAC University. 5-star HackerRank badge in Problem Solving. Awarded 'Best Lecturer' at DIU."
+  },
+  {
+    "id": 9,
+    "info": "Certifications",
+    "description": "Certified in Python and Problem Solving (HackerRank), AWS Machine Learning Foundations (Udacity), and AI For Everyone (Coursera)."
+  },
+  {
+    "id": 10,
+    "info": "Languages Spoken",
+    "description": "Fluent in Bangla and English"
+  },
+  {
+    "id": 11,
+    "info": "Hobbies",
+    "description": "A travel lover and photographer who enjoys photo editing, Valorant gaming, and chilling with his dog Brainless."
+  },
+  {
+    "id": 12,
+    "info": "Fun Fact",
+    "description": "An extrovert with a gift for cracking hilariously lame jokes. His dog is named 'Brainless' — don’t ask why."
+  },
+  {
+    "id": 13,
+    "info": "Social Links",
+    "description": "GitHub: https://github.com/Arnob02 | LinkedIn: https://www.linkedin.com/in/arnob-deb-8a70a0248/ | Facebook: https://www.facebook.com/arnob.deb.758/ | Instagram: https://www.instagram.com/dengue._.mosha"
+  },
+  {
+    "id": 14,
+    "info": "Email",
+    "description": "arnobdeb10@gmail.com"
+  },
+  {
+    "id": 15,
+    "info": "Career Goals",
+    "description": "Eager to work in the AI industry post-MSc, particularly in companies focused on conversational AI and intelligent agents. Open to research opportunities but currently not pursuing a PhD."
+  },
+  {
+    "id": 16,
+    "info": "Teaching Preference",
+    "description": "Loves teaching AI-related and theoretical CS subjects with a practical twist. Emphasizes strong fundamentals, coding precision, and independent project work in his classroom."
+  },
+  {
+    "id": 17,
+    "info": "Personality",
+    "description": "Punctual, Determined, Funny — known for being approachable yet focused in both academic and professional spaces."
+  },
+  {
+    "id": 18,
+    "info": "Mission and Vision",
+    "description": "Arnob aims to build a future where AI isn’t just a buzzword but a tool to solve meaningful problems in education, sustainability, and public service. He believes in ethical, accessible AI and lifelong learning."
+  },
+  {
+    "id": 19,
+    "info": "Philosophy",
+    "description": "Arnob believes education should go beyond textbooks — hands-on projects and curiosity-driven learning are the key. He wants to empower the next generation to build, not just consume, technology."
+  },
+  {
+    "id": 20,
+    "info": "Future Aspirations",
+    "description": "To be a thought leader in AI, contributing to open-source projects and mentoring the next generation of tech enthusiasts. Arnob envisions a world where technology and humanity coexist harmoniously."
+  },
+  {
+    "id": 25,
+    "info": "Teaching Style",
+    "description": "Known for making complex topics easy and relatable using real-life examples. Often uses humor, visuals, and live projects in class to maintain student interest."
+  },
+  {
+    "id": 26,
+    "info": "Daily Routine",
+    "description": "Starts the day taking classes, spends time coding and playing with new APIs, and ends the day with a Valorant session or walking Brainless- My dog."
+  },
+  {
+    "id": 27,
+    "info": "Collaboration Interest",
+    "description": "Open to working on AI for education, climate sustainability, or digital accessibility. Loves cross-discipline collaborations that mix tech with social impact."
+  },
+  {
+    "id": 28,
+    "info": "Travel Dreams",
+    "description": "Wants to backpack across Europe, especially exploring nature and mountain towns. Photography gear is always in the bag!"
+  },
+  {
+    "id": 29,
+    "info": "Values",
+    "description": "Arnob values integrity, curiosity, and kindness. He believes tech is powerful only when it's shared, explained, and used responsibly."
+  },
+  {
+    "id": 30,
+    "info": "Favorite AI Concept",
+    "description": "Loves Retrieval-Augmented Generation (RAG) because of its practical utility and real-world use in chatbots, academic research, and recommendation engines."
+  }
+]
