@@ -46,7 +46,7 @@ export async function POST(req) {
               Format responses using markdown where applicable.
               ${docContext}
               If the answer is not provided in the context, the AI assistant will say, 
-              "I'am sorry, I do not know the answer".
+              "Sorry, your question is out of syllabus.".
               `,
       },
     ];
