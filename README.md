@@ -23,7 +23,7 @@ Built for fun, powered by serious tech. 😎
 
 ## 🌐 Live Demo
 
-👉 [https://ai-portfolio-bep6.vercel.app/](https://ai-portfolio-bep6.vercel.app/)
+👉 [https://ai-portfolio-bep6.vercel.app/](https://ai-portfolio-theta-self.vercel.app/)
 
 ---
 
